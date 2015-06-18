@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/big_window_layout"
+    android:layout_width="300dip"
+    android:layout_height="170dip"
+    android:background="@drawable/app_market_detail_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:text="tvInfo"
+        android:layout_gravity="center_horizontal" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/close"
+            android:layout_width="100dip"
+            android:layout_height="40dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:text="关闭悬浮窗" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="100dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:text="返回" />
+    </RelativeLayout>
+
+
+</LinearLayout>
